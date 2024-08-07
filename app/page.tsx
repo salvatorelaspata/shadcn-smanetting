@@ -43,6 +43,7 @@ import {
 import { Shower } from "@/components/Shower";
 import { MyChart } from "@/components/MyChart";
 import { ToggleTheme } from "@/components/ToggleTheme";
+import { Dashboard } from "@/components/blocks/dashboard";
 
 export default function Home() {
   return (
@@ -112,6 +113,8 @@ export default function Home() {
       </div>
       <Shower />
       <ToggleTheme />
+
+      <Dashboard />
     </main>
   );
 }
